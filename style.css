@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0d0d0d;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    padding: 25px;
+    text-align: center;
+    background: #1a1a1a;
+}
+
+.title {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #bbbbbb;
+}
+
+.search-area {
+    margin: 25px;
+    text-align: center;
+}
+
+input {
+    padding: 10px 12px;
+    width: 320px;
+    border: none;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 16px;
+    margin-left: 10px;
+    background: #e63946;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c92d3b;
+}
+
+.results {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.job-card {
+    background: #1f1f1f;
+    padding: 18px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    line-height: 1.4;
+}
+
+.job-card h3 {
+    margin-top: 0;
+    color: #e63946;
+}
