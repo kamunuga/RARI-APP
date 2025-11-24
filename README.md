@@ -104,6 +104,8 @@ Add job saving/favorites system
 
 Improve UI responsiveness and accessibility
 
+Demo video: https://youtu.be/AD-0EPtsvvs
+
  Author
 
 GAEL MPARAYE
