@@ -2,7 +2,8 @@ RARI OPPORTUNITIES FINDER
 
 This project is a web-based job search application that uses the JSearch API to allow users to search for job listings by title or keyword. The app is deployed across two web servers and load-balanced using AWS to ensure redundancy, performance, and scalability.
 
-📁 Project Structure
+ Project Structure
+
 RARI-APP/
 ├── index.html
 ├── style.css
@@ -11,12 +12,13 @@ RARI-APP/
 └── README.md
 
 
-📌 Features
+ Features
 
-🔍 Search for jobs in real time via the JSearch API
-⚡ Fast client-side interface
-🌍 Fully deployed on two AWS EC2 instances
-⚖️ Traffic balanced using AWS Load Balancer
+ Search for jobs in real time via the JSearch API
+ Fast client-side interface
+ Fully deployed on two AWS EC2 instances
+Traffic balanced using AWS Load Balancer
+
 
 | Category      | Tool                      |
 | ------------- | ------------------------- |
@@ -25,12 +27,12 @@ RARI-APP/
 | Deployment    | SCP, Nginx, AWS           |
 | Load Balancer | AWS Elastic Load Balancer |
 
-🔑 API Attribution
+ API Attribution
 
 This project uses the JSearch API.
 API Provider Credit: JSearch / API Provider
 
-🛠️ Local Setup Instructions
+ Local Setup Instructions
 
 
 access my git folder by cloning : git clone https://github.com/kamunuga/RARI-APP.git
@@ -41,7 +43,7 @@ API_KEY=my_jsearch_api_key
 Open index.html in a browser to run.
 
 
-🚀 Deployment Overview
+ Deployment Overview
 
 Your deployment consists of three servers:
 
@@ -60,7 +62,7 @@ Load distribution (better performance)
 Scalability
 
 
-⚖️ Load Balancer Configuration
+load Balancer Configuration
 
 A load balancer was set up using AWS to distribute traffic evenly across both servers.
 
@@ -76,7 +78,7 @@ Configuration details
 
 The load balancer continuously checks server health and routes traffic only to healthy servers.
 
-📁 Important Files
+ Important Files
 | File           | Description                                  |
 | -------------- | -------------------------------------------- |
 | `index.html`   | Main application UI                          |
@@ -84,7 +86,7 @@ The load balancer continuously checks server health and routes traffic only to h
 | `.env`         | for storing API key securely                 |
 
 
-🧪 4. Testing the Load Balancer
+  Testing the Load Balancer
 
 open browser: http://54.211.78.253 
 
@@ -103,7 +105,7 @@ Add job saving/favorites system
 
 Improve UI responsiveness and accessibility
 
-👤 Author
+ Author
 
 GAEL MPARAYE
 
