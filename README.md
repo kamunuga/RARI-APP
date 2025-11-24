@@ -72,7 +72,6 @@ Configuration details
 | ----------------- | ------------------------- |
 | Listener          | HTTP (Port 80)            |
 | Target Group      | Two web servers           |
-| Health Check Path | `/`                       |
 | Balancing Method  | AWS default               |
 
 
@@ -95,7 +94,7 @@ I was geting a package-lock.json in my files among my other files (index.html, s
 The issue came from uploading the wrong folder using SCP. I reuploaded the correct folder, cleaned old directories, and fixed the structure.
 
 
-🔧 Future Improvements
+ Future Improvements
 
 Enable HTTPS with AWS Certificate Manager
 
